@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment version="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" image="pig.png" id="1Lb-ff-oBe">
+                                <rect key="frame" x="20" y="110" width="280" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="Adc-VK-ilQ">
+                                <rect key="frame" x="98" y="94" width="164" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0¢" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="lNe-QA-lw8">
+                                <rect key="frame" x="145" y="148" width="105" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="94"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="0Ta-Ao-6Vh">
+                                <rect key="frame" x="20" y="10" width="280" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" red="0.79607843137254897" green="0.30588235294117649" blue="0.49411764705882355" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="penny.png" id="RhA-hE-7LP">
+                                <rect key="frame" x="3" y="343" width="68" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" image="nickel.png" id="aXA-as-dXV">
+                                <rect key="frame" x="74" y="338" width="77" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" image="dime.png" id="xZf-Oo-Z5s">
+                                <rect key="frame" x="155" y="343" width="68" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="quarter.png" id="RhY-lT-kRd">
+                                <rect key="frame" x="231" y="333" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="arrow.png" id="aO0-hp-Cq6">
+                                <rect key="frame" x="161" y="63" width="29" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.99999999999999989" contentMode="center" image="pennyNS.png" id="ozn-i9-aVc">
+                                <rect key="frame" x="-8" y="329" width="88" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.99999999999999989" contentMode="center" image="nickelNS.png" id="TMd-XI-676">
+                                <rect key="frame" x="75" y="338" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.99999999999999989" contentMode="center" image="dimeNS.png" id="vLl-co-rXq">
+                                <rect key="frame" x="158" y="343" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.99999999999999989" contentMode="scaleToFill" image="quarterNS.png" id="hF2-yl-cjv">
+                                <rect key="frame" x="234" y="334" width="79" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Penny" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X37-Zu-1gR">
+                                <rect key="frame" x="15" y="416" width="43" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Nickel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nim-Pg-Oep">
+                                <rect key="frame" x="91" y="416" width="43" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Dime" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IM9-3k-JeU">
+                                <rect key="frame" x="168" y="416" width="43" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Quarter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gOE-iG-OsJ">
+                                <rect key="frame" x="252" y="416" width="55" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1¢" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vAv-b0-gpo">
+                                <rect key="frame" x="15" y="430" width="43" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.79607843140000001" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="5¢" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l5R-YJ-bbl">
+                                <rect key="frame" x="91" y="430" width="43" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.79607843140000001" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10¢" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l4H-ZA-Qbk">
+                                <rect key="frame" x="168" y="430" width="43" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.79607843140000001" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="25¢" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZM5-7y-FA5">
+                                <rect key="frame" x="252" y="430" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.79607843140000001" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="arrow" destination="aO0-hp-Cq6" id="49J-Gl-K3n"/>
+                        <outlet property="bank" destination="Adc-VK-ilQ" id="L4m-uD-38y"/>
+                        <outlet property="cent" destination="ozn-i9-aVc" id="hEP-JZ-9b8"/>
+                        <outlet property="centBase" destination="RhA-hE-7LP" id="6xS-IT-7hY"/>
+                        <outlet property="centLabel" destination="vAv-b0-gpo" id="xWQ-og-9UG"/>
+                        <outlet property="counter" destination="lNe-QA-lw8" id="Xtf-MZ-yzc"/>
+                        <outlet property="dime" destination="vLl-co-rXq" id="ops-Y4-NiS"/>
+                        <outlet property="dimeBase" destination="xZf-Oo-Z5s" id="WP5-U7-zTp"/>
+                        <outlet property="dimeLabel" destination="IM9-3k-JeU" id="xeo-82-XHd"/>
+                        <outlet property="fiveLabel" destination="l5R-YJ-bbl" id="gxJ-6y-9Ic"/>
+                        <outlet property="goal" destination="0Ta-Ao-6Vh" id="dzF-Za-nHT"/>
+                        <outlet property="nickel" destination="TMd-XI-676" id="h0E-al-BPd"/>
+                        <outlet property="nickelBase" destination="aXA-as-dXV" id="9O0-Mc-MVh"/>
+                        <outlet property="nickelLabel" destination="nim-Pg-Oep" id="9e4-sm-beD"/>
+                        <outlet property="pennyLabel" destination="X37-Zu-1gR" id="eJM-NV-L2Q"/>
+                        <outlet property="pig" destination="1Lb-ff-oBe" id="ZWj-vC-0gd"/>
+                        <outlet property="quarter" destination="hF2-yl-cjv" id="PDe-8E-vQ6"/>
+                        <outlet property="quarterBase" destination="RhY-lT-kRd" id="0lq-Mk-DQq"/>
+                        <outlet property="quarterLabel" destination="gOE-iG-OsJ" id="gdH-4s-Ew3"/>
+                        <outlet property="tenLabel" destination="l4H-ZA-Qbk" id="12C-Gm-qWS"/>
+                        <outlet property="twentyFiveLabel" destination="ZM5-7y-FA5" id="w8r-9P-hzB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Encouragement1-->
+        <scene sceneID="Uww-xG-4xw">
+            <objects>
+                <viewController storyboardIdentifier="Encouragement1" id="MVw-AZ-C2M" customClass="Encouragement1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lHJ-MA-yk1">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="front.png" id="Aiw-P2-4s3">
+                                <rect key="frame" x="46" y="37" width="228" height="387"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="riU-4w-Os7">
+                                <rect key="frame" x="20" y="27" width="280" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" red="0.79607843140000001" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="encouragementLabel" destination="riU-4w-Os7" id="cz5-oo-ks1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UsX-8G-J67" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="660" y="51"/>
+        </scene>
+        <!--Sound Controller-->
+        <scene sceneID="UN2-5g-O47">
+            <objects>
+                <viewController storyboardIdentifier="SoundController" id="UlW-yP-JXP" customClass="SoundController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2xf-44-Kab">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="front.png" id="Al1-oy-JwE">
+                                <rect key="frame" x="46" y="36" width="228" height="387"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Piggy Banker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="wMW-c7-kVl">
+                                <rect key="frame" x="20" y="27" width="280" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xV5-Ph-FPb">
+                                <rect key="frame" x="71" y="368" width="87" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="soundOn.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="soundOn:" destination="UlW-yP-JXP" eventType="touchUpInside" id="gjw-3a-Omi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FfM-dt-Sw5">
+                                <rect key="frame" x="174" y="368" width="80" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="soundOff.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="soundOff:" destination="UlW-yP-JXP" eventType="touchUpInside" id="278-Tx-VVA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="wMW-c7-kVl" id="Q1f-Hy-IsS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3vu-X9-tzi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="171" y="614"/>
+        </scene>
+        <!--Level Controller-->
+        <scene sceneID="FKb-i9-9dr">
+            <objects>
+                <viewController storyboardIdentifier="LevelController" modalTransitionStyle="crossDissolve" id="azS-k7-LqY" customClass="LevelController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ins-0D-GyB">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="front.png" id="p0C-mR-w3N">
+                                <rect key="frame" x="46" y="36" width="228" height="387"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="39w-od-yd3">
+                                <rect key="frame" x="71" y="369" width="88" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="easy.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="easy:" destination="azS-k7-LqY" eventType="touchUpInside" id="woL-GG-Ijb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="X2m-YQ-EfX">
+                                <rect key="frame" x="167" y="369" width="88" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="hard.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hard:" destination="azS-k7-LqY" eventType="touchUpInside" id="EvW-o3-ndw"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Piggy Banker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="oP8-NW-yYB">
+                                <rect key="frame" x="20" y="27" width="280" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="oP8-NW-yYB" id="4uL-vP-y96"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xSd-la-0VP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="569" y="619"/>
+        </scene>
+        <!--Discouragement-->
+        <scene sceneID="KaY-hn-rQh">
+            <objects>
+                <viewController storyboardIdentifier="Discouragement" id="riq-5p-Wda" customClass="Discouragement" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CVD-zr-657">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="front.png" id="gfS-66-Y2h">
+                                <rect key="frame" x="46" y="37" width="228" height="387"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Tk3-39-FqL">
+                                <rect key="frame" x="20" y="27" width="280" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" red="0.79607843140000001" green="0.30588235289999999" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="discouragementLabel" destination="Tk3-39-FqL" id="UKP-Sy-ZRB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VBN-5y-es7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1130" y="57"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.png" width="29" height="32"/>
+        <image name="dime.png" width="68" height="67"/>
+        <image name="dimeNS.png" width="60" height="59"/>
+        <image name="easy.png" width="215" height="222"/>
+        <image name="front.png" width="395" height="501"/>
+        <image name="hard.png" width="215" height="222"/>
+        <image name="nickel.png" width="77" height="77"/>
+        <image name="nickelNS.png" width="70" height="70"/>
+        <image name="penny.png" width="68" height="68"/>
+        <image name="pennyNS.png" width="60" height="60"/>
+        <image name="pig.png" width="246" height="199"/>
+        <image name="quarter.png" width="85" height="87"/>
+        <image name="quarterNS.png" width="79" height="79"/>
+        <image name="soundOff.png" width="80" height="85"/>
+        <image name="soundOn.png" width="87" height="82"/>
+    </resources>
+    <classes>
+        <class className="Discouragement" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Discouragement.h"/>
+            <relationships>
+                <relationship kind="outlet" name="discouragementLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="Encouragement1" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Encouragement1.h"/>
+            <relationships>
+                <relationship kind="outlet" name="encouragementLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="LevelController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LevelController.h"/>
+            <relationships>
+                <relationship kind="action" name="easy:"/>
+                <relationship kind="action" name="hard:"/>
+                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="SoundController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SoundController.h"/>
+            <relationships>
+                <relationship kind="action" name="soundOff:"/>
+                <relationship kind="action" name="soundOn:"/>
+                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="arrow" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="bank" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="cent" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="centBase" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="centLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="counter" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="dime" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="dimeBase" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="dimeLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="fiveLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="goal" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="nickel" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="nickelBase" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="nickelLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="pennyLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="pig" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="quarter" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="quarterBase" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="quarterLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="tenLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="twentyFiveLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
